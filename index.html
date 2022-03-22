@@ -8,17 +8,101 @@
     <title>Stl's page</title>
 </head>
 <body>
-    <div id="navbar">
-        <ul id="navbaritems">
-            <li><a href="#">Introduction</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
+    <!-- Add first parallax effect -->
+    <div id="peffect">
     </div>
-    <div id="parallax">
+    <div id="navbar" class="sidenav">
+        <a href="#" id="intro">Home</a>
+        <a href="#" id="projects">Current Activities</a>
+        <a href="#" id="contact">Social Media links</a>
+    
+    </div>
+    <!-- Add text at center -->
+    <div id="midtext">
         <h1>Get to know me</h1>
     </div>
-    
+
+    <div id="doheader">
+        <h1>WHAT DO I CURRENTLY DO?</h1>
+    </div>
+    <!-- Add flex box to add the cards using flex-flow -->
+    <div class="flex-container">
+      
+        <!-- Add flip card to describe myself -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/swimage.svg" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>Software Engineer</h1>
+                <p>Fullstack Developer</p>
+                <p>Stack: Django & Postgresql</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/createimg.svg" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>Founder</h1>
+                <p>AfricanTechGirl Organization</p>
+                <p>Bridging the skills and gender gap in STEM</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/trainerimg.svg" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>Technical Mentor</h1>
+                <p>Programming Languages</p>
+                <p>Stack:HTML5, CSS3, JavaScript, Block-based programming, Django & Postgresql</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/webimg.svg" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>Technical Writer</h1>
+                <p>I write articles about navigating life in tech and programming</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Add second parallax effect -->
+    <div id="peffect2">
+    </div>
+    <div id="projectsheader">
+        <h1>LINKS TO KNOW MORE ABOUT ME</h1>
+    </div>
+    <div class="flex-container2">
+        <div>
+            <a href="https://github.com/sheready/"><img src="images/GitHub-Logo.png"></a>
+        </div>
+        <div>
+            <a href="https://twitter.com/Africantechgir1"><img src="images/twitter2.png"></a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/AfricantechgirlOrganization/"><img src="images/facebook-icon.png"></a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/africantechgirl/"><img src="images/ig.png"></a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/stellawaithera/"><img src="images/linkedin.png"></a>
+        </div>
+    </div>
+    <div id="peffect3">
+    </div>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </body>
 </html>
