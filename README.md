@@ -8,12 +8,12 @@ This site was hosted using [GitHub Pages](https://pages.github.com/).
 
 ###### Desktop View
 
-![Desktop View](/PARALLAX/images/desktopview.png)
+![Desktop View](/images/desktopview.png)
 
 ###### Tablet View
 
-![Tablet View](/PARALLAX/images/ipadview.png)
+![Tablet View](/images/ipadview.png)
 
 ###### Phone View
 
-![Phone View](/PARALLAX/images/phoneview.png)
+![Phone View](/images/phoneview.png)
