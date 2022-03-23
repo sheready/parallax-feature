@@ -225,14 +225,14 @@ body{
     }
     .flex-container2 {
         flex-direction: row;
-        height: 180px;
+        height: 300px;
         flex-wrap: wrap;
         align-content: center;
         
     }
     .flex-container2 div img{
         height: 100%;
-        width: 90%;
+        width: 80%;
     }
     .flex-container2 div{
         width: 30%;
@@ -294,6 +294,8 @@ body{
     }
     #finaltext h1{
         font-size: 50px;
+        color: white;
+        top: 2100px;
     }
 
   } 
@@ -349,7 +351,7 @@ body{
     }
     .flex-container2 {
         flex-direction: row;
-        height: 180px;
+        height: 160px;
         flex-wrap: wrap;
         align-content: center;
     }
@@ -358,10 +360,10 @@ body{
         width: 90%;
     }
     .flex-container2 div{
-        width: 27%;
-        height: 40%;
-        border: none;
-        margin: 5px;
+        width: 18%;
+        height: 50%;
+        border: 1px solid white;
+        margin: 3px;
     }
     #navbar a{
         width: 150px;
