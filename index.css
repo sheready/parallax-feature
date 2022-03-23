@@ -79,7 +79,7 @@ body{
 
 .flip-card {
     background-color: #0d8ca6;
-    width: 300px;
+    width: 22vw;
     height: 300px;
     perspective: 1000px;
     margin-right: 10px;
@@ -146,6 +146,7 @@ body{
     justify-content: flex-start;
     height: 330px;
     background-color:#0d8ca6;
+    
 }
 #peffect2{
     background-image: url("images/image2.jpg");
@@ -324,6 +325,8 @@ body{
         margin-top: 10%;
         text-align: center;
         color:white;
+        margin-top: 5px;
+        font-size: 20px;
     }
     
     .flip-card-back p{
